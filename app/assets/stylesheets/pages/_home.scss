@@ -1,1 +1,30 @@
-// Specific CSS for your home-page
+// rgb(253, 15, 21) = #FD1015
+a:hover {
+  text-decoration: none;
+}
+
+.container-form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-ski,
+.form-ideas {
+  width: 500px;
+  height: 500px;
+  background-color: #FFE7E8;
+  border-radius: 3px;
+  box-shadow: 8px 8px 8px rgba(200, 200, 200, 0.8);
+  margin: 16px 16px 32px 16px;
+  text-align: center;
+  padding: 20px;
+}
+
+.faq,
+.team {
+  background-color: rgba(200, 200, 200, 0.6);
+  border-radius: 3px;
+  box-shadow: 8px 8px 8px rgba(200, 200, 200, 0.8);
+  padding: 20px;
+  margin: 16px 16px 32px 16px;
+}
